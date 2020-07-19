@@ -23,7 +23,7 @@ import {
 } from '@chakra-ui/core';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
-import lf from 'dayjs/plugin/LocalizedFormat';
+import lf from 'dayjs/plugin/localizedFormat';
 import { getCar, getAllVins } from '../util';
 
 dayjs.extend(utc);
